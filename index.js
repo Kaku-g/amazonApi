@@ -15,6 +15,10 @@ const scraperUrl=(apiKey)=> `https://api.scraperapi.com?api_key=${apiKey}&autopa
 app.use(express.json());
 
 
+app.get('/',(req,res)=>{
+    res.send(' amazon scraper api running')
+})
+
 //about a prdouct from id 
 
 app.get('/products/:productId', async(req,res)=>{
