@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 5000; 
 
 
-const baseUrl = `https://api.scraperapi.com?api_key=${apiKey}&autoparse=true`;
+//const baseUrl = `https://api.scraperapi.com?api_key=${apiKey}&autoparse=true`;
 
 const scraperUrl=(apiKey)=> `https://api.scraperapi.com?api_key=${apiKey}&autoparse=true`;
 
